@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="tailwind.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="spinner.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Ingresar tarea</title>
+</head>
+<body>
+    <div class="container mx-auto mt-20 bg-white">
+        <header id="header" class="bg-green-800 p-3 font-bold">Ingresar tarea</header>
+        
+        <form id="form" class="py-10 px-5 mx-auto">
+            <div id="ingreso-tarea" class="flex justify-between">
+
+                <label for="ingreso-tarea" class="p-5 font-bold">Tarea:</label>
+                <input id="ingreso-tarea" class="bg-gray-100 border shadow p-2 w-full mr-3" type="text">
+
+                <!-- <label for="ingreso hora" class="p-5 font-bold">Horario:</label>
+                <input id="ingreso-hora" class="bg-gray-100 border shadow p-2 w-30 mr-3" type="time"> -->
+
+                <button id="agregar" class="w-40 bg-blue-600 px-2 py-5 text-white items-center cursor-not-allowed opacity-50 mr-3 font-bold flex justify-center"  
+                    type="submit" disabled>AGREGAR<i class="material-icons right text-white ml-3">send</i>
+                </button>
+                <button id="borrar" 
+                        class="w-40 bg-red-500 px-3 py-5 text-white items-center font-bold flex justify-center" 
+                        type="reset">BORRAR<i class="material-icons right ml-3">delete</i>
+                </button>
+        </form><br>
+    </div>
+    <div class=""></div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background: #0da6b1;
+    background: -webkit-linear-gradient(to right, #2d4fad, #2feb1e);
+    background: linear-gradient(to right, #185a9d, #9608a3); 
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+form {
+    margin: 5px 0;
+}
